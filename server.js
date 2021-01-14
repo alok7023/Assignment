@@ -3,14 +3,14 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
-//const router = require('./route/router');
+const router = require('./route/router');
 const app = express();
 
 
 app.use(express.json({extended: false}));
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
-//app.use('/api', router);
+app.use('/api', router);
 
 
 
