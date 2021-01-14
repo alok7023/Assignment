@@ -17,6 +17,7 @@
 ## Development Tech used Nodejs, Express Js and MongoDB as database
 Follow these steps to get the server up and running :
 1. set up db config
+    Database URL:'mongodb+srv://nayan123:nayan123@devconnector.3nfb7.mongodb.net/<dbname>?retryWrites=true&w=majority'
 2. `npm install` - to install server dependencies
 3. `npm start` - to get the server running
 4. Used Postman for making request to the server
